@@ -15,5 +15,11 @@ Cloudflare'deki tüm etki alanlarında tek seferde IP adresi güncellemesi yapı
 - Update your Email address and Token information according to your cloudflare account
 - It tells you all the changes to be made before all transactions are made and performs the change after your approval. Please check the changes to be made!
 
+
+## GET TOKEN/KEY:
+Login CF Profile
+Go [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
+Click "Global API Key" View
+
 ## ✨ Thanks [Yakar Bilişim Yazılım](https://yakar.com.tr)
 ## ✨ Thanks [Bilgisayar Marketi](https://bilgisayarmarketi.com/)
