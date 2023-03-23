@@ -8,14 +8,16 @@ while True:
     else:
         print("Geçersiz giriş yaptınız. Lütfen yeniden deneyin." if lang == 'TR' else "Invalid input. Please try again.")
 
+mail = input("CF Mail: ")
+token = input("Token: ")
 # Cloudflare API anahtarınızı ve e-posta adresinizi girin.
-cf = CloudFlare.CloudFlare(email='email_adresiniz@example.com', token='api_anahtarınız')
+cf = CloudFlare.CloudFlare(email=mail, key=token)
 
 # Eski IP adresini girin
-old_ip = "eski_ip_adresi"
+old_ip = input("OLD IP: ")
 
 # Yeni IP adresini girin
-new_ip = "yeni_ip_adresi"
+new_ip = input("NEW IP: ")
 
 # Tüm zone'ların listelenmesi
 zones = cf.zones.get()
