@@ -18,7 +18,9 @@ Cloudflare'deki tüm etki alanlarında tek seferde IP adresi güncellemesi yapı
 
 ## GET TOKEN/KEY:
 Login CF Profile
+
 Go [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
+
 Click "Global API Key" View
 
 ## ✨ Thanks [Yakar Bilişim Yazılım](https://yakar.com.tr)
